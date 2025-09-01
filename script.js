@@ -10,8 +10,8 @@
 
   const REDIRECT_URL = 'https://cs-tech-hub.vercel.app/';
   const START_VALUE = 10;
-  const REDIRECT_DELAY = 3000; // 3 seconds
-  const CELEBRATION_INTENSITY = 1; // Adjust (0.5 low – 1 normal – 1.5 high)
+  const REDIRECT_DELAY = 5000; // 5 seconds
+  const CELEBRATION_INTENSITY = 1.5; // Adjust (0.5 low – 1 normal – 1.5 high)
   let current = START_VALUE;
   let timerId = null;
   let started = false;
